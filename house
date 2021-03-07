@@ -1,15 +1,16 @@
- import java.awt.*;
- import java.awt.event.*;
-public class House extends Frame { 
+package com.company;
+import java.awt.*;
+import java.awt.event.*;
+public class House extends Frame {
     public House() {
         setBackground(Color.WHITE);
         setSize(800,600);
         this.addWindowListener( new WindowAdapter()
-        {
-            public void windowClosing(WindowEvent e){
-                System.exit(0);
-            }
-        }
+                                {
+                                    public void windowClosing(WindowEvent e){
+                                        System.exit(0);
+                                    }
+                                }
         );
     }
     public void paint(Graphics g) {
@@ -84,5 +85,5 @@ public class House extends Frame {
         h.setTitle("house");
         h.setVisible(true);
     }
-    
+
 }
