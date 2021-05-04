@@ -11,10 +11,10 @@ public class Container  {
             TextField y1 = new TextField(10);
             Choice r = new Choice();
             r.setBounds(100, 100, 75, 75);
-            r.add("Apple");
-            r.add("Ball");
-            r.add("pet");
-            r.add("dog");
+            r.add("snowden");
+            r.add("wireshark");
+            r.add("nmap");
+            r.add("metasploit");
             f1.add(r);
             f1.add(p1);
             f1.add(y1);
